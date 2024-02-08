@@ -30,6 +30,6 @@ resource "aws_instance" "Prueba1_ec2" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "TerraformCloudGit"
+    Name = "TerraformCloudGitCambio"
   }
 }
