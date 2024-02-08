@@ -21,8 +21,8 @@ terraform {
 provider "aws" {
   profile = "default"
   region  = "eu-central-1"
-  #secret_key = "pD5OqEtFA05j7Aj96jGzGqYf7/etpLZhgkhybLDZ"
-  #access_key = "AKIA6GBMFXARZE3NJBIA"
+  secret_key = "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"
+  access_key = "AKIA6GBMFXARZE3NJBIA"
 }
 
 resource "aws_instance" "Prueba1_ec2" {
